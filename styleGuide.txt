@@ -1,0 +1,14 @@
+Background:bg-neutral-900
+Card Backgrounds: bg-neutral-800
+Secondary card (card on a card with bg-neutral-800): bg-neutral-700/50
+
+border style: border border-neutral-700/30 hover:border-neutral-600/50 transition-all
+
+Primary Text: text-white
+Secondary Text: text-neutral-400
+
+Yellow: bg or text -yellow-500 hover: -yellow-400
+Red: 
+violet: text-purple-700 hover:text-purple-600
+blue: text-blue-500 hover:text-blue-400
+green: text-green-500 hover: text-green-400

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button{
+        @apply font-bold py-2 px-4 rounded-lg ;
+    }
+}
+.loader-login {
+    color: #fff;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 70px;
+    opacity: 0.8;
+  }
+  .loader-login:before {
+    content: "{";
+    display: inline-block;
+    margin-right: 6px ;
+    animation: pulse 0.4s alternate infinite ease-in-out;
+  }
+  .loader-login:after {
+    content: "}";
+    display: inline-block;
+    animation: pulse 0.4s 0.3s alternate infinite ease-in-out;
+  }
+
+  @keyframes pulse {
+    to {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+  }
+      
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b27; /* bg-neutral-900 */
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #222225ce; /* bg-neutral-800 */
+  border-radius: 6px;
+  border: 2px solid #00000090; /* Matches track */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #242428; /* bg-neutral-700 */
+}
+
+body{
+    background-color:#010409;
+    font-family: "Montserrat", sans-serif;
+}
+h1,h2,p,label,button,li,ul {
+    color: #fff;
+}
+html {
+    scroll-behavior: smooth;
+}
